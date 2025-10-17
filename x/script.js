@@ -1,6 +1,6 @@
 // Configs editáveis (coloque seus links reais aqui)
 const CONFIG = {
-  SERVER_IP: 'cfx.re/join/g9ppdz',
+  SERVER_IP: 'https://cfx.re/join/g9ppdz',
   IG: '#', TIKTOK: '#', HYDROS: '#'
 };
 
