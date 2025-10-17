@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niterói RP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="bg-overlay" style="--bg:url('assets/logo2.png'); --dim:0.2"></div>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo1.png" alt="Niterói RP" />
+      <span>Niterói RP</span>
+    </a>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <nav id="menu">
+      <a href="index.html">Início</a>
+      <a href="cidade.html">Cidade</a>
+      <a href="ranking.html">Ranking</a>
+      <a href="atualizacoes.html">Atualizações</a>
+      <a href="comojogar.html">Como Jogar</a>
+      <a class="cta" href="contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+<section class="page-hero container">
+  <h2>Ranking</h2>
+  <p>Os brabos da cidade — atualizado manualmente (ou a gente integra uma API depois).</p>
+</section>
+<section class="ranking container">
+  <div class="ranking-col">
+    <h3>Top 5 Facções</h3>
+    <ol id="rankFacc"></ol>
+  </div>
+  <div class="ranking-col">
+    <h3>Top 5 Mais Ricos</h3>
+    <ol id="rankRicos"></ol>
+  </div>
+  <div class="ranking-col">
+    <h3>Top 5 Online</h3>
+    <ol id="rankOnline"></ol>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="foot-links">
+      <a href="https://www.instagram.com/niteroiroleplaycity?igsh=dXd5aDFta2hqb3Iy&utm_source=qr" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@niteroiroleplayofc?_t=ZM-90Zy9Ug1Ea3&_r=1" target="_blank">TikTok</a>
+      <a href="https://discord.gg/niteroi-roleplay-season-1" target="_blank">Discord</a>
+      <a href="https://niteroirpcity.hydrus.gg/" target="_blank">Loja Niteroi</a>
+    </div>
+    <p>© 2025 Niterói RP — Sua cidade, sua história.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

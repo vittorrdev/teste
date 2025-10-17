@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niterói RP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="bg-overlay" style="--bg: url('assets/logo2.png')"></div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html">
+          <!-- <img src="assets/logo1.png" alt="Niterói RP" /> -->
+          <span>Niterói RP</span>
+        </a>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <nav id="menu">
+          <a href="index.html">Início</a>
+          <a href="cidade.html">Cidade</a>
+          <a href="ranking.html">Ranking</a>
+          <a href="atualizacoes.html">Atualizações</a>
+          <a href="comojogar.html">Como Jogar</a>
+          <a class="cta" href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>
+          <span>A maior experiência</span><br /><strong>na Niterói RP</strong>
+        </h1>
+        <p>
+          Entra na pista, cria. Conecta no FiveM, cola com a tropa e vive a
+          história.
+        </p>
+
+        <div class="actions">
+          <a id="connectBtn" href="cfx.re/join/g9ppdz" class="btn primary">
+            Entrar na Cidade
+          </a>
+          <button class="btn ghost" onclick="copyIP(connect 104.234.63.140)">
+            Copiar IP
+          </button>
+        </div>
+
+        <!-- NOVOS BOTÕES DE REDES SOCIAIS -->
+        <div class="social-buttons">
+          <a
+            href="https://www.tiktok.com/@niteroiroleplayofc?_t=ZM-90Zy9Ug1Ea3&_r=1"
+            class="btn social tiktok"
+            target="_blank"
+          >
+            <!-- <img src="assets/tiktok.png" alt="TikTok" /> -->
+          </a>
+          <a
+            href="https://www.instagram.com/niteroiroleplaycity?igsh=dXd5aDFta2hqb3Iy&utm_source=qr"
+            class="btn social instagram"
+            target="_blank"
+          >
+            <!-- <img src="assets/instagram.png" alt="Instagram" /> -->
+          </a>
+          <a
+            href="https://niteroirpcity.hydrus.gg/"
+            class="btn social hydros"
+            target="_blank"
+          >
+            <!-- <img src="assets/hydros.png" alt="Loja Niteroi" /> -->
+          </a>
+          <a
+            href="https://discord.gg/niteroi-roleplay-season-1"
+            class="btn social discord"
+            target="_blank"
+          >
+            <!-- <img src="assets/discord.png" alt="discord" /> -->
+          </a>
+        </div>
+
+        <div class="ip-line">
+          IP do servidor:
+          <code id="serverIp">https://encurtador.com.br/feqdI</code>
+        </div>
+      </div>
+
+      <div class="hero-illu">
+        <!-- <img src="assets/logo3.png" alt="Arte Niterói RP" /> -->
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <div class="card">
+        <h3>Eventos Semanais</h3>
+        <p>
+          Corrida na orla, invasão no morro e fuga cinematográfica. Sempre tem
+          conteúdo.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Economia Real</h3>
+        <p>
+          Trampo, facções, investimentos e marketplace. O dinheiro gira de
+          verdade.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Admin Ativa</h3>
+        <p>
+          Equipe presente e regras claras. Respeito e diversão pra todo mundo.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="foot-links">
+          <a
+            href="https://www.instagram.com/niteroiroleplaycity?igsh=dXd5aDFta2hqb3Iy&utm_source=qr"
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            href="https://www.tiktok.com/@niteroiroleplayofc?_t=ZM-90Zy9Ug1Ea3&_r=1"
+            target="_blank"
+            >TikTok</a
+          >
+          <a href="https://discord.gg/niteroi-roleplay-season-1" target="_blank"
+            >Discord</a
+          >
+          <a href="https://niteroirpcity.hydrus.gg/" target="_blank"
+            >Loja Niteroi</a
+          >
+        </div>
+        <p>© 2025 Niterói RP — Sua cidade, sua história.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
